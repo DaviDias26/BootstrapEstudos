@@ -1,4 +1,5 @@
 import Header from "../../components/header";
+import Product from "../../components/product/card";
 import "./style.css"
 
 const Petshop = () => {
@@ -21,6 +22,13 @@ const Petshop = () => {
                             <text>1,9km</text>
                         </div>
                         <label className="badge bg-primary">Frete Grátis</label>
+                    </div>
+                    <div className="col-10">
+                        <h5>Produtos</h5>
+                        <br/>
+                        <div className="row">
+                            {[1,2,3,4,5,6,7,8,9].map((p)=>(<Product/>))}
+                        </div>
                     </div>
                 </div>
             </div>
