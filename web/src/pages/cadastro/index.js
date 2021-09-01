@@ -4,7 +4,7 @@ import Header from '../../components/header'
 const Cadastro = () =>{
     return (
         <div className="container-fluid h-100 bg-primary">
-            <Header whiteVersion/>
+            <Header whiteVersion hideCard/>
             <div className='row'>
             <div className="col-6 text-rigth my-auto">
                 <img src={Illustration} className='img-fluid'/>

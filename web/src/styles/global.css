@@ -36,6 +36,14 @@ input[type='date']:disabled{
     font-size: 15px;
 }
 
+.btn-secondary.rounded-circle{
+    padding: 6px 14px;
+}
+
+.btn-primary.rounded-circle{
+    padding: 6px 14px;
+}
+
 .bg-primary{
     background-color: rgb(var(--primary)) !important;
 }
