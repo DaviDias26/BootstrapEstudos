@@ -1,0 +1,13 @@
+
+
+.petshop-list{
+    padding: 7px;
+    white-space: nowrap;
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 15px;
+}
+
+::-webkit-scrollbar{
+    height: 8px;
+}
